@@ -1,0 +1,33 @@
+.discover-sort{
+    display: flex;
+    margin-top: 20px;
+
+    width: 200px;
+        
+    select{
+      width: 200px;
+      height: 30px;
+      border-radius: 10px;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      height: 50px;
+      font-family: 'Helvetica', sans-serif;
+      font-size: 16px;
+      option{
+        color: white;
+        background-color: black;
+      }
+    }
+  }
+  .gradient-072 {
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 500px;
+ left: 70%;
+ bottom: 60%;  
+    background: rgba(25, 74, 139, 0.35);
+    filter: blur(175px);
+    transform: rotate(-114.2deg);
+  } 

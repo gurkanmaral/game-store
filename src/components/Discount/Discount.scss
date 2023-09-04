@@ -1,0 +1,121 @@
+.discount{
+    display: flex;
+    
+    position: relative;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 5px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    .text{
+        
+
+
+    }
+
+    .upcoming-1{
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+        .upcoming-card{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            position: relative;
+        
+            justify-content: center;
+            align-items: center;
+            .upcoming-img{
+                width: 210px;
+                object-fit: cover;
+                height: 350px;
+                border-radius: 10px;
+                cursor: pointer;
+               
+
+            }
+            .upcoming-info{
+
+                width: 210px;
+                height: 50px;
+
+
+                .upcoming-name{
+                    font-size: 15px;
+                    word-break: keep-all;
+                    font-weight: 500;
+                    width: 210px;
+                    height: 50px;
+                    display: flex;
+                    font-family: 'Helvetica', sans-serif;
+                    font-size: 18px;
+                }
+                .upcoming-span{
+                    display: flex;
+                    gap: 20px;
+                    font-family: 'Helvetica', sans-serif;
+                    .upcoming-d{
+                        color: gray;
+                        font-size: 18px;
+                    }
+
+                    .upcoming-n{
+                        font-size: 20px;
+
+                    }
+                }
+
+               
+            }
+            .percentage{
+                position: absolute;
+                top: -10px;
+                right: -20px;
+                border: 1px solid white;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background-color: rgb(69, 153, 69);
+                box-shadow:  0px 2px 6px 2px black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Roboto',sans-serif;
+                    .percentage-1{
+                        font-size: 20px;
+                        
+                    }   
+            }
+
+        }
+    }
+
+
+    .see-more{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Roboto',sans-serif;
+        transition: box-shadow 0.3s, transform 0.3s;
+    }
+
+    .see-more:hover{
+        box-shadow: 0 0px 10px 0 white;
+        transform: scale(1.10);
+    }   
+    
+}

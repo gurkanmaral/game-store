@@ -1,0 +1,25 @@
+.upcomingg {
+  position: relative;
+  z-index: 10;
+}
+.upcomingg .upcoming {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.upcomingg .upcoming .upcoming-1 {
+  position: relative;
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.upcomingg .upcoming .upcoming-1 img {
+  width: 350px;
+  height: 330px;
+}/*# sourceMappingURL=Upcoming.css.map */

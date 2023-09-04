@@ -1,0 +1,28 @@
+.home-container {
+  max-width: 1440px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.home-container .gradient-03 {
+  position: absolute;
+  width: 1004px;
+  height: 500px;
+  left: 15%;
+  bottom: 15%;
+  background: rgba(84, 49, 131, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+.home-container .featured-container {
+  position: relative;
+}
+.home-container .upcoming-container {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+  height: 600px;
+  border-radius: 24px;
+  padding: 10px;
+}/*# sourceMappingURL=Home.css.map */

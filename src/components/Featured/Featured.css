@@ -1,0 +1,16 @@
+.featured {
+  padding: 10px;
+}
+.featured .featured-1 {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.featured .featured-2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+  gap: 10px;
+}/*# sourceMappingURL=Featured.css.map */

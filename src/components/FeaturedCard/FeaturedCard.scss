@@ -1,0 +1,99 @@
+.featured-card-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  transition-property: flex;
+  transition-timing-function: ease-out; /* The easing function for the transition */
+  transition-duration: 0.7s; /* The duration of the transition */
+ transition-timing-function: cubic-bezier(0.05, 0.6, 0.4, 0.9);
+
+  cursor: pointer;
+
+  .featured-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+    
+    
+  }
+
+  &.featured-active {
+    flex: 3.5;
+
+
+  }
+
+  &.featured-notActive {
+    flex: 0.5;
+   
+
+  }
+
+  .featured-card-1{
+    position: absolute;
+    z-index: 0;
+    bottom: 1%;
+    left: 20px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    font-size: 15px;
+    width: 200px;
+    height: 75px;
+    font-family: 'Heavitas',sans-serif;
+  }
+
+  .featured-card-2{
+    position: absolute;
+    bottom: 0;
+     display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 24px;
+    align-items: center;
+    padding: 5px;
+
+    .featured-card-4{
+      
+      position: absolute;
+      top: 30px;
+      .featured-name{
+        font-family: 'Heavitas',sans-serif;
+      }
+    }
+  }
+
+
+  .featured-card-3{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-bottom: 16px;
+   
+    z-index: 99999;
+    .icon{
+      width: 30px;
+      height: 30px;
+     
+     
+
+    }
+    .icon:hover{
+      color: red;
+      
+    }
+  }
+}

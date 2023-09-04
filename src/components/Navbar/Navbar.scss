@@ -1,0 +1,98 @@
+.navbar-outer{
+    width: 100vw;   
+    position: relative;
+    z-index: 99999;
+.navbar-container{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+   
+    .navbar-name{    
+        height: 100%;
+        display: flex;
+        align-items: center;
+        
+        flex:1;
+
+        p{
+            font-size: 30px;
+            font-family: 'Helvetica',sans-serif;
+        }
+
+    }
+    .navbar-input{
+        display: flex;
+        align-items: center;
+        background-color: white;
+       border-radius: 5px;
+        padding: 5px;
+        flex:1;
+
+        .navbar-button{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+        }
+        .icon{
+            background-color: white;
+            color: black;
+            
+        }
+        input{
+            width: 350px;
+            height: 30px;
+          
+            border: none;
+            outline: none;
+        
+            background-color: white;
+            
+        }
+    }
+    .navbar-sign{
+        flex:1;
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+        font-size: 20px;
+        font-family: 'Heavitas' ,sans-serif;
+        font-weight: 600;
+        padding-right: 20px;
+    }
+}
+.open-cart{
+    
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+
+    .open-cart-1{
+        position: relative;
+        font-size: 14px;
+        .open-cart-number{
+            position: absolute;
+            display: flex;
+            top: -5px;
+            right: -5px;
+            border-radius: 50%;
+            background-color: red;
+            width: 17px;
+            height: 17px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
+}
+.match{
+    font-size: 20px;
+    justify-self: flex-end;
+    font-family: 'Helvetica',sans-serif;
+}

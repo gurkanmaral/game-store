@@ -1,0 +1,35 @@
+.navbar-container {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.navbar-container .navbar-name {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  flex: 1;
+  
+}
+
+
+.navbar-container .navbar-name p {
+  font-size: 30px;
+}
+.navbar-container .navbar-input {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.navbar-container .navbar-sign {
+  flex: 1;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+.navbar-container .navbar-sign P {
+  padding-right: 20px;
+}/*# sourceMappingURL=Navbar.css.map */

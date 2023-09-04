@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Heavitas';
+  src: url('./fonts/Heavitas.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'The Bold Font';
+  src: url('./fonts/theboldfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/helvetica.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body{
+  background-color: #151515;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.typing-text{
+  font-size: 30px;
+}
+
+

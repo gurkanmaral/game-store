@@ -1,0 +1,71 @@
+.trending{
+    width: 1440px;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    .trending-card-container{
+        margin-top: 30px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        .trending-card{
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            gap: 5px;
+            align-items: center;
+            transition: ease 0.3s;
+            justify-content: center;
+            background-color: rgb(247, 244, 244);
+            color: black;
+            box-shadow: 0px 0px 5px 0px rgb(226, 225, 225);
+            .trending-img-div{
+
+                .trending-img{
+                    width: 250px;
+                    height: 300px;
+                    object-fit: cover;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    cursor: pointer;
+                   
+                }
+            }
+            .trending-info{
+                
+                width: 250px;
+                height: 50px;
+                display: flex;
+               align-items: center;
+                justify-content: center;
+                font-family: 'Helvetica',sans-serif;
+                transition: box-shadow 0.3s, transform 0.3s;
+            }
+        }
+        .trending-card:hover{
+            box-shadow: 0 0px 10px 0 white;
+            transform: scale(1.05);
+            
+        }
+    }
+    .trending-see{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Roboto',sans-serif;
+        transition: box-shadow 0.3s, transform 0.3s;
+    }
+    .trending-see:hover{
+        box-shadow: 0 0px 10px 0 white;
+        transform: scale(1.10);
+    }   
+}

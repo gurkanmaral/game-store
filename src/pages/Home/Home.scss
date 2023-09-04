@@ -1,0 +1,79 @@
+.home-container{
+    max-width: 1440px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .hero-container{
+        border: 1px solid white;
+        margin-bottom: 20px;
+        height: 500px;
+    }
+
+    .gradient-03 {
+        position: absolute;
+        z-index: 0;
+        width: 1004px;
+        height: 500px;
+     left: 15%;
+     bottom: 15%;  
+        background: rgba(65, 32, 109, 0.35);
+        filter: blur(175px);
+        transform: rotate(-114.2deg);
+      }
+      .gradient-04 {
+        position: absolute;
+        z-index: 0;
+        width: 1004px;
+        height: 500px;
+     left: 30%;
+     bottom: 15%;  
+        background: rgba(14, 73, 112, 0.35);
+        filter: blur(175px);
+        transform: rotate(-114.2deg);
+      }
+      .gradient-05 {
+        position: absolute;
+        z-index: 0;
+        width: 1004px;
+        height: 500px;
+     left: 30%;
+     bottom: 0%;  
+        background: rgba(25, 74, 139, 0.35);
+        filter: blur(175px);
+        transform: rotate(-114.2deg);
+      }
+
+
+    .featured-container{
+        position: relative;
+
+    }
+    .upcoming-container{
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+       height: 500px;
+        border-radius: 24px;
+        padding: 10px;
+       
+      
+    }   
+
+    .popular-container{
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .discount-container{
+      position: relative;
+      margin-top: 50px;
+      width: 100%;
+    }
+
+    .trending-container{
+      position: relative;
+    }
+
+}

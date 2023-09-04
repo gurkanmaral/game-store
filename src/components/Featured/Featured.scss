@@ -1,0 +1,24 @@
+.featured{
+    padding: 10px;
+    .featured-1{
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .featured-2{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        min-height: 70vh;
+        gap: 10px;
+        
+        
+    }
+}
+
+.typing-text{
+    font-family: 'The Bold Font',sans-serif;
+}
