@@ -21,7 +21,7 @@ const FeaturedCard = ({ index, featured, active, setActive }) => {
       <img src={featured.img} alt="" className='featured-img' />
       {active !== featured.id ? (
         <div className='featured-card-1'>
-             <h3 >
+             <h3 className="featured-card-1-h3">
                 {featured.name}
             </h3>
         </div>

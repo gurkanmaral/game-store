@@ -67,4 +67,26 @@
             }
         }
     }
+    
+    @media screen and (max-width: 300px) {
+        .popular-card {
+          
+           
+        }
+        
+         .popular-img {
+           
+        }
+        .popular-card-container{
+            flex-direction: row;
+        }
+    }
+    
+  
+}
+@media screen and (max-width:600px) {
+    .popular{
+        visibility: hidden;
+        height: 10px;
+    }
 }

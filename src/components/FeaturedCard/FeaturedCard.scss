@@ -97,3 +97,42 @@
     }
   }
 }
+
+@media screen and (max-width:1200px){
+
+  .featured-name{
+      font-size: 15px;
+  }
+
+  .featured-card-1{
+    position: absolute;
+    
+    
+    
+  }
+  .featured-card-1-h3{
+   
+   
+     font-size: 15px;
+  }
+}
+@media screen and (max-width:700px){
+
+  
+  .featured-card-1-h3{
+   
+      visibility: hidden;
+     font-size: 15px;
+  }
+  
+  .featured-card-3{
+    
+    width: 50px;
+    height: 50px;
+  }
+  .icon{
+    width: 20px;
+    height: 20px;
+    
+  }
+}

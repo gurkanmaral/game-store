@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { Tilt } from 'react-tilt'
 import { fadeIn } from '../../utils/motion'
 import {Link} from "react-router-dom"
+
 export const textVariant = (delay) => {
     return {
       hidden: {

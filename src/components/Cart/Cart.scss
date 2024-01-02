@@ -138,3 +138,41 @@
     right: 0;
   
   }
+
+@media screen and (max-width:1800px) {
+    
+  
+    .cart-h3-1{
+        font-size: 15px;
+    }
+
+    .empty-cart{
+       
+       
+    }
+    .cart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-item{
+       display: flex;
+        gap: 0px;
+       
+        width: 210px;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    .cart-name-price{
+        font-size: 15px;
+    }
+    .cart-button{
+        width: 15px;
+        height: 15px;
+    }
+}

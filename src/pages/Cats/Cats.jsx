@@ -74,7 +74,7 @@ const Cats = () => {
        
   
         setFilteredData(newData);
-      }, [sortOption]);
+      }, [sortOption,selectedGenre]);
 
           
     useEffect(() => {
@@ -84,18 +84,20 @@ const Cats = () => {
         }
         else if(selectedGenre1) {
           navigate(`/cats/${selectedGenre1}`);
-            window.location.reload()
+            
         }
-      }, [selectedGenre,selectedGenre1]);
-     
+      }, [selectedGenre1,navigate]);
+
+      
       console.log(filteredData)
   return (
     <div className='popular'>
            <motion.div
        className='discover'
        variants={staggerContainer}
-       initial="hidden"
+       
        whileInView="show"
+       
        viewport={{once:false,amount:0.25}}
        >
           <div className='discover-title'>
@@ -108,17 +110,19 @@ const Cats = () => {
                 
                     <span>POPULAR</span>
                 </Link>
-                <div className='discover-item'>
+                <Link className='discover-item' to="/mostplayed"
+                style={{color:'inherit',textDecoration:'none'}}>
                     <span>Most Played</span>
-                </div>
-                <div className='discover-item'
-                
+                </Link>
+                <Link className='discover-item' to="/toprated"
+                style={{color:'inherit',textDecoration:'none'}}
                 >
                     <span>Top Rated</span>
-                </div>
-                <div className='discover-item'>
+                </Link>
+                <Link className='discover-item' to="/upcoming"
+                style={{color:'inherit',textDecoration:'none'}}>
                     <span>UPCOMING</span>
-                </div>
+                </Link>
            </div>
            <div className='line' />
            <div className='discover-sort'>

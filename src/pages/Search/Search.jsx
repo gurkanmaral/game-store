@@ -69,7 +69,8 @@ const Search = () => {
     whileInView="show"
     viewport={{once:false,amount:0.25}}
     >
-      <TypingText title={`Search results for :${searchTerm}`} />
+      <h1 className='search-for'>
+        {`Search results for : ${searchTerm}`}</h1>
       <div className="search-results">
 
         {matchingGames.map((game) => (

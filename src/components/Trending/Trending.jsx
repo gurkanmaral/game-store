@@ -55,7 +55,7 @@ const Trending = () => {
     };
 
   return (
-    <div className=''>
+    <div className='trending-container'>
        <motion.div className='trending'
         variants={staggerContainer}
         initial="hidden"
@@ -72,7 +72,7 @@ const Trending = () => {
                 <div key={item.id} className='trending-card'>
                     <div className='trending-img-div'>
                       <Link to={`/details/${item.id}`}
-                      onClick={handleLinkClick}
+                      onClick={handleLinkClick} className='trending-img-div-1'
                       >
                         <img src={item.img} alt="" className='trending-img' />
                       </Link>              

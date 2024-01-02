@@ -10,6 +10,10 @@
         font-family: 'Heavitas',sans-serif;
 
     }
+    .search-for{
+        font-size: 30px;
+        font-family: 'Heavitas',sans-serif;
+    }
 
     .search-results{
         width: 100%;
@@ -68,6 +72,25 @@
         .game-card:hover .reco-name {
             opacity: 1; /* Show on hover */
           }
-       
+       .match{
+        margin-top: 20px;
+       }
     }
 }
+@media screen and (max-width:600px) {
+    .search-results{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .search-results{
+        display: flex;
+        flex-direction: column;
+       margin-left: 100px;
+        
+    }
+}
+
+

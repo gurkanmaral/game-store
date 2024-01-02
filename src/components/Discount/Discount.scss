@@ -119,3 +119,22 @@
     }   
     
 }
+
+@media screen and (max-width:600px) {
+    .discount{
+        margin-top: 1600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 2000px;
+        margin-left: 20px;
+    }
+
+    .text{
+        
+    }
+    .upcoming-1{
+        display: flex;
+        flex-direction: column;
+    }
+}

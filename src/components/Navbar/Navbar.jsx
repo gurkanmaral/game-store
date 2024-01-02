@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
            
         </div>
-        <div className=''>
+        <div className='navbar-input-1'>
           <form className='navbar-input' >
             <button onClick={handleSearch} className='navbar-button' >
                   <SearchIcon className='icon' 
@@ -52,13 +52,13 @@ const Navbar = () => {
         </div>
         <div className='navbar-sign'>
           <Link to="/" style={{textDecoration:'none',color:'inherit'}}>
-            <span>Home</span>
+            <span className='navbar-home'>Home</span>
           </Link>        
-          <Link to="/discover" style={{textDecoration:'none',color:'inherit'}}>
+          <Link to="/discover" className='navbar-home' style={{textDecoration:'none',color:'inherit'}}>
             <span>Discover</span>
           </Link>
          
-           <p>Sign In</p>
+           <p className='sign-in'>Sign In</p>
         </div>
         
      <div className='open-cart'>

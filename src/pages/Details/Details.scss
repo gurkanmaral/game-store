@@ -37,6 +37,7 @@
             top: 10px;
             width: 900px;
             overflow: hidden;
+            
             img{
                 width: 900px;
                 height: 600px;
@@ -252,3 +253,20 @@
     max-width: 100%;
     max-height: 100%;
   }
+
+@media screen and (max-width:600px) {
+    .details-up{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .details-left{
+        width: 100px;
+      
+       
+    }
+    .details-img-1{
+        
+    }
+}

@@ -42,7 +42,7 @@ const Details = () => {
             <span className='year'>({tempData[id].year})</span>
           </div>
           <div className='details-img'>   
-              <img src={selectedImage} alt=""  className='' />
+              <img src={selectedImage} alt=""  className='details-img-1' />
           </div>
           <div className='other-images'>
           <img src={tempData[id].img} alt="" onClick={() => setSelectedImage(tempData[id].img)} />

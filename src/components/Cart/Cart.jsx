@@ -35,7 +35,7 @@ const Cart = ({setOpenCart,openCart}) => {
         </div>
         
         <div className='cart-h3'>
-              <h3>Your Games in Cart</h3>
+              <h3 className='cart-h3-1'>Your Games in Cart</h3>
         </div>
         <motion.div className='cart-item-container'
         initial={{ opacity: 0, y: -20 }}
@@ -43,7 +43,7 @@ const Cart = ({setOpenCart,openCart}) => {
         transition={{ duration: 0.3, delay: 0.1 }}>
             {products.length < 1 &&(
               <div className='empty-cart'>
-                <h3>Your shopping bag is empty</h3>
+                <h3 className='cart-h3-1'>Your shopping bag is empty</h3>
                 <Link to="/discover" className='empty-div'>
                   <button type="button" 
                   className="empty-button">
@@ -66,7 +66,7 @@ const Cart = ({setOpenCart,openCart}) => {
               <div className='cart-desc'>
                   <div className='cart-name'>
                     <span>{item?.name}</span>
-                    <span>${item?.price}.00</span>
+                    <span className='cart-name-price'>${item?.price}.00</span>
                   </div>       
               </div>
               <div className='cart-button'>

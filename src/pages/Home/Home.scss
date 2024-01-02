@@ -53,7 +53,7 @@
     .upcoming-container{
         width: 100%;
         background: rgba(255, 255, 255, 0.1);
-        margin-top: 50px;
+        margin-top: 50px; 
        height: 500px;
         border-radius: 24px;
         padding: 10px;
@@ -76,4 +76,14 @@
       position: relative;
     }
 
+}
+
+@media screen and (max-width:600px) {
+  
+    .upcoming-container{
+      
+      
+      
+      
+    }
 }
